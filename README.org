@@ -1,0 +1,39 @@
+Summary of interesting talks at useR2017
+
+All talks were recorded, probably eventually available on 
+https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2017
+
+- partools "Leave it there" alternative to MapReduce/spark by Norm
+  Matloff. "Software Alchemy" which means computing some estimates on
+  data subsets on different computers, than averaging those estimates
+  (Not technically correct, but works fine). 
+- h2o.autoML -- makes it easy to run several ML algos on your data,
+  select the one which is most accurate (usually the stacked version).
+- crispRvariants Bioconductor package
+  https://bioconductor.org/packages/release/bioc/html/CrispRVariants.html
+- CHMM won best poster prize, Coupled Hidden Markov models for joint
+  copy number variant detection (in families/trios).
+  https://cran.r-project.org/package=CHMM
+- Transformation trees https://r-forge.r-project.org/projects/ctm can
+  be used to learn a nonlinear regression function with censored
+  outputs.
+- Really nice presentation about deep convolutional neural networks
+  for text classification. Letter-level 1-hot encoding, mxnet R
+  package, implementation of model from LeCun 2015 paper.
+- containerit package for automatically archiving reproducible studies
+  with docker. https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker?iframe=yes&w=&sidebar=yes&bg=no#
+- List of all R packages on github, produced daily. Currently over
+  40,000. http://rpkg.gepuro.net/
+- My tutorial about changepoint detection https://github.com/tdhock/change-tutorial
+- Structural equation modeling, like graphical models, R pkg
+  lavaan. "Why do we keep doing this?" (writing/maintaining R
+  packages) To learn more about the models, the algos, stats,
+  maths. Meet interesting people, more interesting than writing
+  papers. Free/open-source software is too important.
+- Really cool talk about data depth, some kind of non-parametric
+  density estimate, very elegant geometric interpretation, but hard to
+  compute in a reasonable amount of time, R pkg ddalpha.
+- A couple of interesting talks about digital PCR, alternative to
+  qPCR.https://user2017.sched.com/event/AxsV/integrated-analysis-of-digital-pcr-experiments-in-r
+  https://bioconductor.org/packages/release/bioc/html/recount.html
+- 20 years of CRAN, awesome keynote by Uwe Ligges. 
