@@ -1,7 +1,7 @@
 Summary of interesting talks at useR2017
 
-All talks were recorded, probably eventually available on 
-https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2017
+All talks were recorded, available on 
+https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference
 
 - partools "Leave it there" alternative to MapReduce/spark by Norm
   Matloff. "Software Alchemy" which means computing some estimates on
