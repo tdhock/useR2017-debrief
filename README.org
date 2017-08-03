@@ -36,4 +36,10 @@ https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-Inte
 - A couple of interesting talks about digital PCR, alternative to
   qPCR.https://user2017.sched.com/event/AxsV/integrated-analysis-of-digital-pcr-experiments-in-r
   https://bioconductor.org/packages/release/bioc/html/recount.html
-- 20 years of CRAN, awesome keynote by Uwe Ligges. 
+- 20 years of CRAN, awesome keynote by Uwe Ligges. He recommended to
+  use R CMD check on the command line rather than in
+  Rstudio/devtools. I asked about CRAN support for old package
+  versions. His response was that CRAN is more concerned with checking
+  that the current packages are working together (and that checking
+  all combinations of new/old versions would be computationally
+  intractable).
