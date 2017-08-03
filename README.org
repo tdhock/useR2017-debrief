@@ -1,45 +1,53 @@
-Summary of interesting talks at useR2017
+Summary of interesting content at useR2017
+
+** Talks
 
 All talks were recorded, available on 
 https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference
 
-- partools "Leave it there" alternative to MapReduce/spark by Norm
-  Matloff. "Software Alchemy" which means computing some estimates on
-  data subsets on different computers, than averaging those estimates
-  (Not technically correct, but works fine). 
-- h2o.autoML -- makes it easy to run several ML algos on your data,
-  select the one which is most accurate (usually the stacked version).
-- crispRvariants Bioconductor package
-  https://bioconductor.org/packages/release/bioc/html/CrispRVariants.html
-- CHMM won best poster prize, Coupled Hidden Markov models for joint
-  copy number variant detection (in families/trios).
-  https://cran.r-project.org/package=CHMM
-- Transformation trees https://r-forge.r-project.org/projects/ctm can
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Parallel-Computation-in-R-What-We-Want-and-How-We-Might-Get-It?term%3Dmatloff][Norm Matloff]] partools "Leave it there" alternative to
+  MapReduce/spark by Norm Matloff. "Software Alchemy" which means
+  computing some estimates on data subsets on different computers,
+  than averaging those estimates (Not technically correct, but works
+  fine).
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Room-402-Lightning-Talks?term%3Dautoml%2520lightning][Erin Ledell]] h2o.autoML -- makes it easy to run several ML algos on
+  your data, select the one which is most accurate (usually the
+  stacked version).
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Transformation-Forests?term%3Dtransformation][Torsten Hothorn]] Transformation trees https://r-forge.r-project.org/projects/ctm can
   be used to learn a nonlinear regression function with censored
   outputs.
-- Really nice presentation about deep convolutional neural networks
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Deep-Learning-for-Natural-Language-Processing-in-R?term%3Ddeep%2520convolutional%2520][Angus Taylor]] Really nice presentation about deep convolutional neural networks
   for text classification. Letter-level 1-hot encoding, mxnet R
   package, implementation of model from LeCun 2015 paper.
-- containerit package for automatically archiving reproducible studies
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Automatically-archiving-reproducible-studies-with-Docker?term%3Dcontainerit][Daniel Nust]] containerit package for automatically archiving reproducible studies
   with docker. https://user2017.sched.com/event/AxqM/automatically-archiving-reproducible-studies-with-docker?iframe=yes&w=&sidebar=yes&bg=no#
-- List of all R packages on github, produced daily. Currently over
-  40,000. http://rpkg.gepuro.net/
-- My tutorial about changepoint detection https://github.com/tdhock/change-tutorial
-- Structural equation modeling, like graphical models, R pkg
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Introduction-to-optimal-changepoint-detection-algorithms?term%3Dhocking][My]] tutorial with [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Introduction-to-optimal-changepoint-detection-algorithms-II?term%3Dhocking][Rebecca Killick]] about changepoint detection
+  https://github.com/tdhock/change-tutorial
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Structural-Equation-Modeling-models-software-and-stories?term%3Dstrucutral%2520equation%2520modeling][Yves Rosseel]] Structural equation modeling, like graphical models, R pkg
   lavaan. "Why do we keep doing this?" (writing/maintaining R
   packages) To learn more about the models, the algos, stats,
   maths. Meet interesting people, more interesting than writing
   papers. Free/open-source software is too important.
-- Really cool talk about data depth, some kind of non-parametric
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/Depth-and-depth-based-classification-with-R-package-ddalpha?term%3Ddata%2520depth][Oleksii Pokotylo]] Really cool talk about data depth, some kind of non-parametric
   density estimate, very elegant geometric interpretation, but hard to
   compute in a reasonable amount of time, R pkg ddalpha.
 - A couple of interesting talks about digital PCR, alternative to
-  qPCR.https://user2017.sched.com/event/AxsV/integrated-analysis-of-digital-pcr-experiments-in-r
+  qPCR. https://user2017.sched.com/event/AxsV/integrated-analysis-of-digital-pcr-experiments-in-r
   https://bioconductor.org/packages/release/bioc/html/recount.html
-- 20 years of CRAN, awesome keynote by Uwe Ligges. He recommended to
+- [[https://channel9.msdn.com/events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-20-years-of-CRAN?term%3Duwe%2520ligges][Uwe Ligges]] 20 years of CRAN, awesome keynote by Uwe Ligges. He recommended to
   use R CMD check on the command line rather than in
   Rstudio/devtools. I asked about CRAN support for old package
   versions. His response was that CRAN is more concerned with checking
   that the current packages are working together (and that checking
   all combinations of new/old versions would be computationally
   intractable).
+
+** Posters
+
+- crispRvariants Bioconductor package
+  https://bioconductor.org/packages/release/bioc/html/CrispRVariants.html
+- List of all R packages on github, produced daily. Currently over
+  40,000. http://rpkg.gepuro.net/
+- CHMM won best poster prize, Coupled Hidden Markov models for joint
+  copy number variant detection (in families/trios).
+  https://cran.r-project.org/package=CHMM
