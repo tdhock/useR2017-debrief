@@ -59,7 +59,7 @@ is now over, and I would like to mention the projects I mentored:
 - [[https://faizan-khan-iit.github.io/gsoc17/][Faizan Khan]], animint2 package for animated interactive grammar of
   graphics. Useful for visualizing genomic data and models, e.g. [[http://members.cbio.mines-paristech.fr/~thocking/data/PeakSegJoint-H3K4me3-test/1/figure-train-errors/][data
   viz of PeakSegJoint model]].
-- [[http://rovervan.com/post/gsoc/iregnet-benchmark][Rover Van]], iregnet speed optimizations. Useful for learning a
+- [[http://rovervan.com/post/gsoc/gsoc-summary][Rover Van]] iregnet speed optimizations. Useful for learning a
   regression model in data with censored outputs. For example you want
   to see if genetic data can be used to predict survival time, but for
   some patients you don't know the exact survival time, because they
