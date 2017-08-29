@@ -51,3 +51,23 @@ https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-Inte
 - CHMM won best poster prize, Coupled Hidden Markov models for joint
   copy number variant detection (in families/trios).
   https://cran.r-project.org/package=CHMM
+** GSOC
+
+This is not technically related to useR, but Google of Summer of Code
+is now over, and I would like to mention the projects I mentored:
+
+- [[https://faizan-khan-iit.github.io/gsoc17/][Faizan Khan]], animint2 package for animated interactive grammar of
+  graphics. Useful for visualizing genomic data and models, e.g. [[http://members.cbio.mines-paristech.fr/~thocking/data/PeakSegJoint-H3K4me3-test/1/figure-train-errors/][data
+  viz of PeakSegJoint model]].
+- [[http://rovervan.com/post/gsoc/iregnet-benchmark][Rover Van]], iregnet speed optimizations. Useful for learning a
+  regression model in data with censored outputs. For example you want
+  to see if genetic data can be used to predict survival time, but for
+  some patients you don't know the exact survival time, because they
+  are not dead yet. E.g. patient 1 died at age 65, y=65; patient 2 is
+  53 years old at time of analysis, y=[53,inf]. I use this approach
+  for learning a penalty function for predicting the number of peaks
+  in genomic data, [[http://bl.ocks.org/tdhock/raw/9311ca39d643d127e04a088814c81ee1/][the blue curve in this figure]].
+- Marlin Na wrote the [[https://github.com/marlin-na/TnT][TnT]] package for rendering interactive genome
+  browsers in R. Useful if you want to display genomic data on a small
+  web page,
+  e.g. https://marlin-na.github.io/TnT/articles/introduction.html
